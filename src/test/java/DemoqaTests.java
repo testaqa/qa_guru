@@ -56,7 +56,7 @@ public class DemoqaTests {
         $x("//div[@class='table-responsive']//table//tr[8]").shouldHave(text("Picture"),text("doberman.jpg"));
         $x("//div[@class='table-responsive']//table//tr[9]").shouldHave(text("Address"),text("test test test"));
         $x("//div[@class='table-responsive']//table//tr[10]").shouldHave(text("State and City"),text("Haryana Karnal"));
-        $("#closeLargeModal").shouldHave(visible);
+        $("#closeLargeModal").click();
 
 
 
