@@ -18,6 +18,5 @@ public class GoogleTests {
 
         $(By.cssSelector("#search")).shouldHave(text("selenide.org"));
         // для поиска по  id  можно использовать  #
-    }
-}
+    }}
 
