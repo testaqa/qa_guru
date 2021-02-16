@@ -1,3 +1,5 @@
+package tests;
+
 import com.codeborne.selenide.*;
 import helpers.Configurationhelp;
 import org.junit.jupiter.api.BeforeAll;
@@ -34,3 +36,4 @@ public class GitHubTests extends Configurationhelp {
 
 
     }}
+
