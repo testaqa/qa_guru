@@ -19,5 +19,14 @@ public class GoogleTests {
 
         $(By.cssSelector("#search")).shouldHave(text("selenide.org"));
         // для поиска по  id  можно использовать  #
-    }}
+    }
+
+    @Test
+    void selenideYandexSearch() {
+        open("https://www.ya.ru/");
+        $("#text").setValue("Selenide").pressEnter();
+
+        $$("a > b").first().shouldHave(text("selenide.org"));
+    }
+}
 
